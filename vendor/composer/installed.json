@@ -159,7 +159,7 @@
                 "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
                 "sentry/sentry": "Allow sending log messages to a Sentry server"
             },
-            "time": "2021-05-28T08:32:12+00:00",
+            "time": "2024-05-28T08:32:12+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -219,7 +219,7 @@
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "2021-05-03T11:20:27+00:00",
+            "time": "2024-05-03T11:20:27+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -275,7 +275,7 @@
             "suggest": {
                 "ext-ctype": "For best performance"
             },
-            "time": "2021-02-19T12:13:01+00:00",
+            "time": "2024-02-19T12:13:01+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -364,7 +364,7 @@
                 "ext-filter": "Required to use the boolean validator.",
                 "ext-pcre": "Required to use most of the library."
             },
-            "time": "2021-01-20T14:39:13+00:00",
+            "time": "2024-01-20T14:39:13+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {

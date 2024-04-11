@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 01, 2021 at 07:41 PM
+-- Generation Time: May 01, 2024 at 07:41 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.0
 
@@ -153,7 +153,7 @@ CREATE TABLE `order` (
 --
 
 INSERT INTO `order` (`order_id`, `user_id`, `track_num`, `fullname`, `email`, `contact`, `shipping_add`, `order_date`, `status`, `totalprice`, `tax`) VALUES
-(1, 12, 12, '12', '12', '12', '12', '2021-01-13 19:13:30', '12', '12.00', '12.00');
+(1, 12, 12, '12', '12', '12', '12', '2024-01-13 19:13:30', '12', '12.00', '12.00');
 
 -- --------------------------------------------------------
 
@@ -207,7 +207,7 @@ CREATE TABLE `payment` (
 --
 
 INSERT INTO `payment` (`payment_id`, `cust_id`, `sales_id`, `payment`, `payment_date`, `user_id`, `due`, `status`, `or_no`) VALUES
-(1, 4, 3, '63.00', '2021-01-06 19:27:10', 3, '43.00', 'done', 5);
+(1, 4, 3, '63.00', '2024-01-06 19:27:10', 3, '43.00', 'done', 5);
 
 -- --------------------------------------------------------
 
@@ -253,13 +253,13 @@ CREATE TABLE `prod_images` (
 --
 
 INSERT INTO `prod_images` (`id`, `image_name`, `uploaded`, `prod_id`) VALUES
-(1, '5wxpv2s6-900.jpg', '2021-02-22 20:02:42', 1),
-(2, 'main-qimg-58eaebcafe4c1a3e3764e024b9591142.png', '2021-02-22 23:01:40', 2),
-(3, '3-shutterstock_1199480788-1000x667.jpg', '2021-02-26 18:11:33', 3),
-(4, '67.jpg', '2021-02-26 18:11:33', 3),
-(5, 'bigstock-Artificial-intelligence-modern-207054388.jpg', '2021-03-31 18:18:14', 4),
-(6, '220px-Binary_executable_file2.png', '2021-03-31 18:18:14', 4),
-(7, '9tx5d50a1pximqnfaligehygu2a12hv7-1280x1280.jpg', '2021-04-04 03:39:54', 5);
+(1, '5wxpv2s6-900.jpg', '2024-02-22 20:02:42', 1),
+(2, 'main-qimg-58eaebcafe4c1a3e3764e024b9591142.png', '2024-02-22 23:01:40', 2),
+(3, '3-shutterstock_1199480788-1000x667.jpg', '2024-02-26 18:11:33', 3),
+(4, '67.jpg', '2024-02-26 18:11:33', 3),
+(5, 'bigstock-Artificial-intelligence-modern-207054388.jpg', '2024-03-31 18:18:14', 4),
+(6, '220px-Binary_executable_file2.png', '2024-03-31 18:18:14', 4),
+(7, '9tx5d50a1pximqnfaligehygu2a12hv7-1280x1280.jpg', '2024-04-04 03:39:54', 5);
 
 -- --------------------------------------------------------
 
@@ -326,8 +326,8 @@ CREATE TABLE `transactions` (
 --
 
 INSERT INTO `transactions` (`trans_id`, `order_no`, `prod_name`, `trans_qty`, `customer_name`, `transdate`, `trans_type`, `total`) VALUES
-(1, 12, 'cassava', 12, 'tab', '2021-02-03 20:25:08', '0.00', '200000.00'),
-(3, 12, 'jik', 12, 'tab', '2021-02-03 20:25:08', 'withdraw', '200000.00');
+(1, 12, 'cassava', 12, 'tab', '2024-02-03 20:25:08', '0.00', '200000.00'),
+(3, 12, 'jik', 12, 'tab', '2024-02-03 20:25:08', 'withdraw', '200000.00');
 
 -- --------------------------------------------------------
 
@@ -353,10 +353,10 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `fullname`, `username`, `email`, `phone`, `password`, `refer`, `date_joined`) VALUES
 (1, 'derrick', 'tab', 'derricktab44@gmail.com', '', '$2y$10$SvysQrBp7OmdZszeFWpll.BpBkKuWu19cPDW8o0yLn/KJ5ydNPHpW', 'system', ''),
 (3, 'der', 'der', 'der@der.com', '', '$2y$10$LyEX/dYFS4dgX8p0M6cnquYp1yEf4v7Bsnx9y8Z07soaVC27hI812', 'system', ''),
-(8, 'Scott Jackson', 'scott', 'procurement@0mya.com', '12295988009', '$2y$10$KjGe5INVxGq1eTiE0nArre2v.cD16s1PK4wIH7HiNC2AA5/H7ywGC', 'tab', '2021-02-24 04:14:43'),
-(9, 'Jerry Burton', 'jerry', 'cabotcorporation@usa.com', '12295988009', '$2y$10$RANScRC1RygILMkJzpZLmevmAR6Edflu0z2DUH96GioZzOc.1LcbO', 'tab', '2021-02-24 13:46:18'),
-(12, 'Kizito', 'kizito', 'kizito@gmai.com', '', '$2y$10$7RhObDYaGWN3cYHYp8aJ/Oy5fG3uzI8/SJsQYcl31/DQNOZzTVYMK', 'system', '2021-03-06 08:22:30'),
-(13, 'DEVIS', '', 'devis@devis.com', '', '$2y$10$XKQ/UcsTXHWOercZzVrs2Os4e4mZgvtVNAvS3oAVT7QJ7R7j6lxHy', 'system', '2021-04-24 13:26:18');
+(8, 'Scott Jackson', 'scott', 'procurement@0mya.com', '12295988009', '$2y$10$KjGe5INVxGq1eTiE0nArre2v.cD16s1PK4wIH7HiNC2AA5/H7ywGC', 'tab', '2024-02-24 04:14:43'),
+(9, 'Jerry Burton', 'jerry', 'cabotcorporation@usa.com', '12295988009', '$2y$10$RANScRC1RygILMkJzpZLmevmAR6Edflu0z2DUH96GioZzOc.1LcbO', 'tab', '2024-02-24 13:46:18'),
+(12, 'Kizito', 'kizito', 'kizito@gmai.com', '', '$2y$10$7RhObDYaGWN3cYHYp8aJ/Oy5fG3uzI8/SJsQYcl31/DQNOZzTVYMK', 'system', '2024-03-06 08:22:30'),
+(13, 'DEVIS', '', 'devis@devis.com', '', '$2y$10$XKQ/UcsTXHWOercZzVrs2Os4e4mZgvtVNAvS3oAVT7QJ7R7j6lxHy', 'system', '2024-04-24 13:26:18');
 
 --
 -- Indexes for dumped tables

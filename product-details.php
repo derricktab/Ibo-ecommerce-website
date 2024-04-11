@@ -488,7 +488,7 @@ $row = mysqli_fetch_array($result);
 						<div class="col-sm-4 mb-3">
 							<div class="review-block-name mb-2"> <h6><a href="#"> Derrick Tab</a></h6></div>
                             <div> <i class="far fa-check-circle text-success"></i> Verified Buyer </div>
-							<div class="review-block-date">January 29, 2021</div>
+							<div class="review-block-date">January 29, 2024</div>
 						</div>
 						<div class="col-sm-8">
 

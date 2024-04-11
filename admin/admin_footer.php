@@ -285,7 +285,7 @@ footer{
 					<a href="#"><i class="fa fa-youtube"></i></a>
 				</div>
 			</div>
-		<p class="footer-company-name">© 2021 IBO ASSOCIATIONAL GROUP COMPANY LIMITED.</p>
+		<p class="footer-company-name">© 2024 IBO ASSOCIATIONAL GROUP COMPANY LIMITED.</p>
 
 		</footer>
 	</body>

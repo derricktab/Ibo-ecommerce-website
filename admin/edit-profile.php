@@ -385,7 +385,7 @@ $username = $row['username'];
 
 <!-- /.content-wrapper -->
   <footer class="main-footer bottom-footer">
-    <strong>Copyright &copy; 2021 <a href="../">IBO ASSOCIATIONAL GROUP CO LTD</a>.</strong>
+    <strong>Copyright &copy; 2024 <a href="../">IBO ASSOCIATIONAL GROUP CO LTD</a>.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
       Designed by <b><a href="mailto: derricktab44@gmail.com">Derrick Tab</a></b>

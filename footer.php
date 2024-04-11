@@ -75,7 +75,7 @@
 					<div class="row">
 						<div class="col-lg-6 col-12">
 							<div class="left">
-								<p class="font-weight-normal">Copyright © 2021 <a href="/ibo" target="_blank" class="text-white">IBO ASSOCIATIONAL GROUP LIMITED</a>  -  All Rights Reserved.</p>
+								<p class="font-weight-normal">Copyright © 2024 <a href="/ibo" target="_blank" class="text-white">IBO ASSOCIATIONAL GROUP LIMITED</a>  -  All Rights Reserved.</p>
 							</div>
 						</div>
 						<div class="col-lg-6 col-12">

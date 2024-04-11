@@ -13,7 +13,7 @@
             <div class="row">
             <!-- Left Fotoer Column -->
             <div class="col-md-6 text-left ">
-              © 2021 IBO Asociassional Group Limited. All Rights Reserved.
+              © 2024 IBO Asociassional Group Limited. All Rights Reserved.
             </div>
 
     
