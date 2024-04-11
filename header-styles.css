@@ -1,0 +1,52 @@
+
+nav{
+    min-height: 70px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: white !important;
+}
+nav a:hover{
+    text-decoration: none;
+    color: #FF4500;
+}
+.navbar-brands {
+    color: #FF4500;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+/* Set the border color  */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #FF4500;
+}
+.nav-icon{
+    display: none;
+}
+
+nav li a {
+  transition: 0.1s ease;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav li a:hover {
+  color: white !important;
+  border-bottom: 4px solid white;
+  padding: 7px 0; 
+}
+
+@media(max-width: 720px){
+    .nav-icon{
+        display: inline;
+    }
+
+    .form-inline{
+        display: none;
+    }
+}
